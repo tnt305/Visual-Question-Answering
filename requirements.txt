@@ -1,0 +1,4 @@
+timm -q
+torch
+transformers
+tqdm
