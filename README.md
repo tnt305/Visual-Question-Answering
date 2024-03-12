@@ -1,7 +1,7 @@
 ## ABOUT VISUAL QA
 Visual Question Answering (VQA) is an interdisciplinary research area that lies at the intersection of computer vision (CV) and natural language processing (NLP). It aims to develop AI systems capable of understanding and answering questions about images. For better understanding, you can look over this [page](https://visualqa.org/) where our projects focus on [binaryQA](https://arxiv.org/pdf/1511.05099.pdf)
 <p align="center">
- <img src="fig/overview.png" width="800">
+ <img src="fig/overview.png" width="400">
 </p>
 
 ## Additional
