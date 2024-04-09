@@ -1,6 +1,6 @@
 ## ABOUT VISUAL QA
 Visual Question Answering (VQA) is an interdisciplinary research area that lies at the intersection of computer vision (CV) and natural language processing (NLP). It aims to develop AI systems capable of understanding and answering questions about images. For better understanding, you can look over this [page](https://visualqa.org/) where our projects focus on [binaryQA](https://arxiv.org/pdf/1511.05099.pdf)
-<p align="center">
+<p> align="center">
  <img src="fig/overview.png" width="400">
 </p>
 
@@ -16,13 +16,23 @@ Visual Question Answering (VQA) is an interdisciplinary research area that lies 
 - Answer Prediction: Predicting answers using classification techniques, generating answers with sequence models, or using attention mechanisms.
 
 ## Getting Start
-- Install needed packages through ``` requirements.txt ```
-- Preprocess the original dataset via ` dataset/preprocess.py `
-- Our approach using Transformers-based text model and visual Pretrained model. They are in `model.py` and training process in `train.py`. Below is a brief overview of our approach.
+- Install needed packages through 
+``` python
+requirements.txt 
+```
+- Preprocess the original dataset via 
+``` 
+dataset/preprocess.py 
+```
+- Our approach using Transformers-based text model and visual Pretrained model. They are in `model.py` and training process in `train.py`. We also test on several methods to explore the performance of different architecture on this task.
+| Approach       | Accuracy   |
+|--------------|------------|
+| CNN x LSTM     | 69.57 %        |
+| ViT x Roberta      | 66.7%        |
+| Pretrained CLIPs      | 75.57%        |
+
+Below is a brief overview of our approach.
 <p align="center">
  <img src="fig/arch.png" width="800" >
 </p>
-- If successfully, you will output the training:
-<p align="center">
- <img src="fig/plot.png" width="800" >
-</p>
+
