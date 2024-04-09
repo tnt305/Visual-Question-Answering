@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, RobertaModel
 from train import *
 from .encoder.model import Classifier, VQAModel
 from .encoder.encoder import TextEncoder, VisualEncoder
-from dataset import preprocess
+from . import preprocess
 from dataset.coco_vqa import VQADataset
 
 def arguments():

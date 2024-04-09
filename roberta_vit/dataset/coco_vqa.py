@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import torch
 from torch.ultis.dataset import Dataset , DataLoader
-from dataset.preprocess import *
+from preprocess import *
 
 
 class VQADataset(Dataset):
