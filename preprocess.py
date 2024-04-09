@@ -2,7 +2,7 @@ import torch
 
 
 train_data = []
-train_set_path = './datasets/vaq2.0.TrainImages.txt'
+train_set_path = './vaq2.0.TrainImages.txt'
 
 with open(train_set_path, "r") as f:
     lines = f.readlines()
@@ -24,7 +24,7 @@ with open(train_set_path, "r") as f:
 
 
 val_data = []
-val_set_path = './datasets/vaq2.0.DevImages.txt'
+val_set_path = './vaq2.0.DevImages.txt'
 
 with open(val_set_path, "r") as f:
     lines = f.readlines()
@@ -45,7 +45,7 @@ with open(val_set_path, "r") as f:
         val_data.append(data_sample)
 
 test_data = []
-test_set_path = './datasets/vaq2.0.TestImages.txt'
+test_set_path = './vaq2.0.TestImages.txt'
 
 with open(test_set_path, "r") as f:
     lines = f.readlines()
