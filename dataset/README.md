@@ -10,6 +10,6 @@ drive.mount('/content/drive')
 You can download the dataset via this [Google Drive](https://drive.google.com/file/d/1kc6XNqHZJg27KeBuoAoYj70_1rT92191/view?usp=sharing) then unzip using `!unzip -q vqa_coco_dataset.zip`
 
 A simple look for our dataset
-<p align="center">
+<p> align="center">
  <img src="fig/dataset.png" width="800">
 </p>

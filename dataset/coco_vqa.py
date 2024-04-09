@@ -15,7 +15,7 @@ class VQADataset(Dataset):
         img_feature_extractor,
         text_tokenizer,
         device,
-        root_dir='/content/val2014-resised/'
+        root_dir='./val2014-resised/'
     ):
         self.data = data
         self.root_dir = root_dir

@@ -66,9 +66,5 @@ with open(test_set_path, "r") as f:
         test_data.append(data_sample)
 
 classes = set([sample['answer'] for sample in train_data])
-classes_to_idx = {
-                    cls_name: idx for idx, cls_name in enumerate(classes)
-                 }
-idx_to_classes = {
-                    idx: cls_name for idx, cls_name in enumerate(classes)
-                 }
+classes_to_idx = {cls_name: idx for idx, cls_name in enumerate(classes)}
+idx_to_classes = {idx: cls_name for idx, cls_name in enumerate(classes)}
