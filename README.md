@@ -18,7 +18,7 @@ You can download the dataset via this [Google Drive](https://drive.google.com/fi
 A simple look for our dataset
 
 <p align="center">
- <img src="Visual-Question-Answering/fig/dataset.png" width="800">
+ <img src="fig/dataset.png" width="800">
 </p>
 
 
